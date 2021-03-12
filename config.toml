@@ -2,3 +2,24 @@ baseURL = "https://cazcik.me/"
 languageCode = "en-us"
 title = "cazcik.me"
 theme = "etch"
+
+[params]
+  description = "My personal slice of the internet."
+  copyright = "cazcik.me"
+  dark = "auto"
+  highlight = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/posts"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = 20

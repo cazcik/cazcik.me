@@ -1,3 +1,4 @@
 baseURL = "https://cazcik.me/"
 languageCode = "en-us"
 title = "cazcik.me"
+theme = "etch"
